@@ -1,0 +1,403 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 85px;
+    height: 45px;
+    margin-left: 86px;
+    margin-top: 17px;
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .dropdown-arrow {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+
+
+
+  .custom-arrow {
+    display: inline-block;
+    margin-left: 5px;
+    transform: rotate(45deg);
+  }
+  
+  .custom-arrow svg {
+    width: 10px;
+    height: 10px;
+  }
+  
+  nav ul li a,
+  .custom-arrow {
+    color: #888; /* Adjust this to match the gray color in your design */
+  }
+  
+  nav ul li:hover a,
+  nav ul li:hover .custom-arrow {
+    color: #333; /* Darker color on hover */
+  }
+  
+  .new-item::after {
+    content: 'NEW';
+    background-color: #4CAF50;
+    color: white;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+  
+  .auth-buttons button {
+    padding: 8px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .sign-in {
+    background-color: white;
+    color: #333;
+  }
+  
+  .sign-up {
+    background-color: #4758FF;
+    color: white;
+  }
+  
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    nav, .auth-buttons {
+      display: none;
+    }
+    
+    .menu-toggle {
+      display: block;
+    }
+  }
+
+
+
+
+
+
+  
+
+  .made-to-trade {
+    font-family: Arial, sans-serif;
+    max-width: 1050px;
+    max-height: 1000px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #8A2BE2;
+  }
+  
+  h1 span {
+    color: #00CED1;
+  }
+  
+  .trade-card {
+    background-color: #E6E6FA;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .trade-info {
+    flex: 1;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .rating .stars {
+    color: gold;
+  }
+  
+  .rating .half-star {
+    color: gold;
+    position: relative;
+  }
+  
+  .rating .half-star::after {
+    content: "★";
+    color: #E6E6FA;
+    position: absolute;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .open-account {
+    
+    color: black;
+    font-weight: bold;
+  }
+  
+  .learn-more {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .trade-options {
+    flex: 0.7;
+  }
+  
+  .trade-options ul {
+    list-style-type: none;
+    padding: 0;
+
+  }
+
+
+
+
+
+
+
+
+  
+  .trade-options li {
+    margin-bottom: 28px;
+    display: flex;
+   
+    align-items: center;
+  }
+  
+  .checkmark {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #006400; /* Dark green background */
+    border-radius: 3px;
+    margin-right: 10px;
+    position: relative;
+  }
+  .checkmark::after {
+    content: "✓";
+    color: white; /* White checkmark */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+  }
+  
+  .trade-charges {
+    flex: 0.44;
+  }
+  
+  .info-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 5px;
+  }
+  
+  .logo {
+    flex: 0.2 0.4 100px;
+  }
+  
+  .logo img {
+    margin-top: 22px;
+    margin-right: 180px;
+    
+    max-width: 186px;
+    height: 140px;
+  }
+
+
+  /* footer {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+  } */
+   footer {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+  color: #333;
+  margin-top: 99px;
+}
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  
+  .footer-column {
+    flex: 0.2;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  
+  .social-icons {
+    margin-bottom: 20px;
+  }
+  
+  .social-icons i {
+    margin: 0 10px; /* Adjust the value as needed */
+  }
+
+  .company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .bluestock-logo {
+    width: 200px;
+    margin-bottom: 15px;
+  }
+  
+  .company-info p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .company-name {
+    font-size: 16px;
+  }
+  
+  .company-location {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .msme-title {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .msme-number {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .startup-india-logo {
+    width: 150px;
+  }
+
+
+
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #666;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+  
+  .copyright-left, .copyright-right {
+    white-space: nowrap;
+  }
+  
+  .copyright-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .copyright-right::before {
+  
+    margin-right: 5px;
+  }
+  
